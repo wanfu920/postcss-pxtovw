@@ -1,5 +1,5 @@
 {
-  "name": "postcss-pxtovw",
+  "name": "postcss-plugin-pxtovw",
   "version": "1.0.0",
   "description": "A CSS post-processor that converts px to vw",
   "main": "index.js",
