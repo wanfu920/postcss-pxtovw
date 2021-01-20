@@ -15,7 +15,7 @@ const defaults = {
   exclude: null,
 };
 
-module.exports = postcss.plugin("postcss-pxtovw", (options = {}) => {
+module.exports = postcss.plugin("postcss-plugin-pxtovw", (options = {}) => {
   const opts = Object.assign({}, defaults, options);
 
   return (css) => {
